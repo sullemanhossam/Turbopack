@@ -26,7 +26,7 @@ jobs:
       - name: Build and push API Docker image
         run: |
           cd legacy/apps/api
-          docker buildx build --platform linux/amd64,linux/arm64 -t registry.gitlab.com/turbopack:legacy-api .
+          docker buildx build --platform linux/amd64,linux/arm64 -t registry.gitlab.com/turbopack:legacy-api . --load
           docker push registry.gitlab.com/turbopack:legacy-api
 
       - name: Build and push WebRTC Docker image
