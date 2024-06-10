@@ -27,28 +27,28 @@ jobs:
         run: |
           cd legacy/apps/api
           docker buildx build --platform linux/amd64,linux/arm64 -t registry.gitlab.com/turbopack:legacy/apps/api .
-          docker push registry.gitlab.com/turbopack:legacy/apps/api
+          docker push registry.gitlab.com/turbopack:legacy-api
 
       - name: Build and push WebRTC Docker image
         run: |
           cd legacy/apps/webrtc
           docker buildx build --platform linux/amd64,linux/arm64 -t registry.gitlab.com/turbopack:legacy/apps/webrtc .
-          docker push registry.gitlab.com/turbopack:legacy/apps/webrtc
+          docker push registry.gitlab.com/turbopack:legacy-webrtc
 
       - name: Build and push NodeUtil Docker image
         run: |
           cd legacy/apps/nodeutil
           docker buildx build --platform linux/amd64,linux/arm64 -t registry.gitlab.com/turbopack:legacy/apps/nodeutil .
-          docker push registry.gitlab.com/turbopack:legacy/apps/nodeutil
+          docker push registry.gitlab.com/turbopack:legacy-nodeutil
 
       - name: Build and push WebSocket Docker image
         run: |
           cd legacy/apps/websocket
           docker buildx build --platform linux/amd64,linux/arm64 -t registry.gitlab.com/turbopack:legacy/apps/websocket .
-          docker push registry.gitlab.com/turbopack:legacy/apps/websocket
+          docker push registry.gitlab.com/turbopack:legacy-websocket
 
       - name: Build and push Kafka Docker image
         run: |
           cd legacy/apps/kafka
           docker buildx build --platform linux/amd64,linux/arm64 -t registry.gitlab.com/turbopack:legacy/apps/kafka .
-          docker push registry.gitlab.com/turbopack:legacy/apps/kafka
+          docker push registry.gitlab.com/turbopack:legacy-kafka
