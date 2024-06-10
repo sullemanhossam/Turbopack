@@ -1,0 +1,5 @@
+{
+  "kafka_host" : "AIRSEND_KAFKA_HOST",
+  "deployment_host" : "AIRSEND_DEPLOYMENT_HOSTNAME",
+  "app_admin_password" : "APP_ADMIN_PASSWORD"
+}

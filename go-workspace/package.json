@@ -1,0 +1,16 @@
+{
+  "name": "@go-workspace/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "echo "
+  },
+  "private": true,
+  "dependencies": {
+    "@nx-go/nx-go": "3.1.0"
+  },
+  "devDependencies": {
+    "@nx/workspace": "19.2.2",
+    "nx": "19.2.2"
+  }
+}

@@ -1,0 +1,24 @@
+[submodule "legacy/apps/nodeutil"]
+	path = legacy/apps/nodeutil
+	url = https://github.com/pharmavillage/nodeutil.git
+[submodule "legacy/apps/webrtc"]
+	path = legacy/apps/webrtc
+	url = https://github.com/pharmavillage/webrtc.git
+[submodule "legacy/apps/kafka"]
+	path = legacy/apps/kafka
+	url = https://github.com/pharmavillage/kafka.git
+[submodule "legacy/apps/websocket"]
+	path = legacy/apps/websocket
+	url = https://github.com/pharmavillage/websocket.git
+[submodule "legacy/apps/docs"]
+	path = legacy/apps/docs
+	url = https://github.com/pharmavillage/docs.git
+[submodule "legacy/apps/api"]
+	path = legacy/apps/api
+	url = https://github.com/pharmavillage/api.git
+[submodule "nx-rspack-mf"]
+	path = nx-rspack-mf
+	url = https://github.com/pharmavillage/nx-rspack-mf.git
+[submodule "devenv"]
+	path =  devenv
+	url = https://github.com/pharmavillage/devenv.git

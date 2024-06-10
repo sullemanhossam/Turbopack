@@ -1,0 +1,5 @@
+{
+  "kafka_host" : "kafka",
+  "deployment_host" : "127.0.0.1",
+  "app_admin_password" : ""
+}
