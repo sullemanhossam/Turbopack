@@ -1,0 +1,14 @@
+{
+  "name": "go-workspace",
+  "version": "1.0.0",
+  "description": "Experimenting with **golang-1.18** _multi-module workspaces_",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

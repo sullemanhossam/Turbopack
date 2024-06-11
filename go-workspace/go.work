@@ -5,7 +5,10 @@ use (
 	./cmd/app1
 	./cmd/app2
 	./cmd/app3
+	./data-access
 	./lib
+	./libs/data-access
+	./libs/gql
 )
 
 replace github.com/tidwall/btree v1.1.0 => github.com/tidwall/btree v1.1.1-0.20220220161908-7bec22d8e3fa
