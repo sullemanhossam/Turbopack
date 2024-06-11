@@ -26,10 +26,10 @@ jobs:
       - name: Build and push API Docker image
         run: |
           cd legacy/apps/api
-          docker build -t registry.gitlab.com/turbopack:legacy-api-amd64 . --platform linux/amd64 --load
-          docker push registry.gitlab.com/turbopack:legacy-api-amd64
-          docker build -t registry.gitlab.com/turbopack:legacy-api-arm64 . --platform linux/arm64 --load
-          docker push registry.gitlab.com/turbopack:legacy-api-arm64
+          docker build -t registry.gitlab.com/turbopack:legacy-api-universal . --platform linux/amd64 --load
+          docker push registry.gitlab.com/turbopack:legacy-api-universal
+          # docker build -t registry.gitlab.com/turbopack:legacy-api-arm64 . --platform linux/arm64 --load
+          # docker push registry.gitlab.com/turbopack:legacy-api-arm64
 
       - name: Build and push WebRTC Docker image
         run: |
