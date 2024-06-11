@@ -33,6 +33,53 @@
         "implicitDependencies": []
       }
     },
+    "api": {
+      "name": "api",
+      "type": "app",
+      "data": {
+        "root": "apps/api",
+        "name": "api",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "sourceRoot": "apps/api",
+        "tags": [
+          "database",
+          "data"
+        ],
+        "targets": {
+          "build": {
+            "executor": "@nx-go/nx-go:build",
+            "options": {
+              "main": "apps/api/main.go"
+            },
+            "configurations": {}
+          },
+          "serve": {
+            "executor": "@nx-go/nx-go:serve",
+            "options": {
+              "main": "apps/api/main.go"
+            },
+            "configurations": {}
+          },
+          "test": {
+            "executor": "@nx-go/nx-go:test",
+            "options": {},
+            "configurations": {}
+          },
+          "lint": {
+            "executor": "@nx-go/nx-go:lint",
+            "options": {},
+            "configurations": {}
+          },
+          "tidy": {
+            "executor": "@nx-go/nx-go:tidy",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "gql": {
       "name": "gql",
       "type": "lib",
@@ -70,6 +117,7 @@
   "externalNodes": {},
   "dependencies": {
     "data-access": [],
+    "api": [],
     "gql": []
   },
   "version": "6.0"

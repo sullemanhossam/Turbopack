@@ -376,3 +376,834 @@ Error: InvalidSymbol in /Users/sullemanhossam/Desktop/Turbopack/go-workspace/pac
 [NX Daemon Server] - 2024-06-11T16:34:41.097Z - [REQUEST]: libs/gql/project.json,libs/gql/gql.go,libs/gql/gql_test.go,libs/gql/go.mod,go.work
 [NX Daemon Server] - 2024-06-11T16:34:41.097Z - [REQUEST]: 
 [NX Daemon Server] - 2024-06-11T16:34:41.099Z - Time taken for 'hash changed files from watcher' 0.9296660001855344ms
+[NX Daemon Server] - 2024-06-11T16:35:18.964Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T16:35:18.964Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-11T16:35:18.964Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T16:35:18.965Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T16:35:18.965Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T16:35:18.965Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T16:35:18.965Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T16:35:18.965Z - Time taken for 'total for creating and serializing project graph' 0.0999169999267906ms
+[NX Daemon Server] - 2024-06-11T16:35:18.974Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T16:35:18.974Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T16:35:18.974Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T16:35:18.974Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T16:35:18.974Z - Time taken for 'total for creating and serializing project graph' 0.06941700004972517ms
+[NX Daemon Server] - 2024-06-11T16:35:18.975Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-11T16:35:18.975Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T16:35:18.975Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T16:35:18.975Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T16:35:18.975Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T16:35:18.975Z - Time taken for 'total for creating and serializing project graph' 0.035499999998137355ms
+[NX Daemon Server] - 2024-06-11T17:03:56.944Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:03:56.950Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:07:47.320Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:07:47.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:07:47.423Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:07:47.424Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:07:47.424Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:07:47.436Z - Time taken for 'hash changed files from watcher' 1.477916999720037ms
+[NX Daemon Server] - 2024-06-11T17:07:49.405Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:07:49.405Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:07:49.606Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:07:49.612Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:07:49.613Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:07:49.615Z - Time taken for 'hash changed files from watcher' 0.07433299999684095ms
+[NX Daemon Server] - 2024-06-11T17:08:17.437Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:08:17.438Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:08:17.540Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:08:17.540Z - [REQUEST]: libs/gql/graph/model/_tmp_gqlgen_init.go,libs/gql/gqlgen.yml,libs/gql/graph/schema.graphqls
+[NX Daemon Server] - 2024-06-11T17:08:17.540Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:08:17.544Z - Time taken for 'hash changed files from watcher' 0.9586660000495613ms
+[NX Daemon Server] - 2024-06-11T17:08:17.670Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:08:17.670Z - [WATCHER]: libs/gql/graph/model/models_gen.go was created or restored
+[NX Daemon Server] - 2024-06-11T17:08:17.754Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:08:17.755Z - [WATCHER]: libs/gql/graph/generated.go was created or restored
+[NX Daemon Server] - 2024-06-11T17:08:17.770Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:08:17.770Z - [REQUEST]: libs/gql/graph/model/models_gen.go,libs/gql/graph/generated.go
+[NX Daemon Server] - 2024-06-11T17:08:17.770Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:08:17.772Z - Time taken for 'hash changed files from watcher' 0.19791699992492795ms
+[NX Daemon Server] - 2024-06-11T17:08:18.281Z - [WATCHER]: 1 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:08:18.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:08:18.382Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:08:18.382Z - [REQUEST]: libs/gql/go.sum,libs/gql/go.mod
+[NX Daemon Server] - 2024-06-11T17:08:18.383Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:08:18.387Z - Time taken for 'hash changed files from watcher' 0.23820899985730648ms
+[NX Daemon Server] - 2024-06-11T17:08:18.565Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:08:18.565Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:08:18.643Z - [WATCHER]: 1 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:08:18.643Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:08:18.667Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:08:18.667Z - [REQUEST]: libs/gql/graph/schema.resolvers.go,libs/gql/graph/resolver.go,libs/gql/server.go,libs/gql/graph/generated.go,go.work.sum
+[NX Daemon Server] - 2024-06-11T17:08:18.667Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:08:18.669Z - Time taken for 'hash changed files from watcher' 0.6350420000962913ms
+[NX Daemon Server] - 2024-06-11T17:08:18.973Z - [WATCHER]: libs/gql/graph/model/_tmp_gqlgen_init.go was deleted
+[NX Daemon Server] - 2024-06-11T17:08:18.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:08:19.174Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:08:19.174Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:08:19.174Z - [REQUEST]: libs/gql/graph/model/_tmp_gqlgen_init.go
+[NX Daemon Server] - 2024-06-11T17:08:19.176Z - Time taken for 'hash changed files from watcher' 0.04420799994841218ms
+[NX Daemon Server] - 2024-06-11T17:08:19.519Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:08:19.519Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:08:19.920Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:08:19.920Z - [REQUEST]: libs/gql/go.mod,libs/gql/go.sum
+[NX Daemon Server] - 2024-06-11T17:08:19.920Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:08:19.923Z - Time taken for 'hash changed files from watcher' 0.18337500002235174ms
+[NX Daemon Server] - 2024-06-11T17:09:01.901Z - [WATCHER]: go.work.sum was modified
+[NX Daemon Server] - 2024-06-11T17:09:01.902Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:09:02.703Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:09:02.703Z - [REQUEST]: go.work.sum
+[NX Daemon Server] - 2024-06-11T17:09:02.703Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:09:02.707Z - Time taken for 'hash changed files from watcher' 0.20191700011491776ms
+[NX Daemon Server] - 2024-06-11T17:24:07.205Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:24:07.206Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:24:08.807Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:24:08.808Z - [REQUEST]: go.mod
+[NX Daemon Server] - 2024-06-11T17:24:08.808Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:24:08.816Z - Time taken for 'hash changed files from watcher' 0.2247919999063015ms
+[NX Daemon Server] - 2024-06-11T17:24:43.565Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:24:43.566Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:24:46.236Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:24:46.236Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:24:46.767Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:24:46.768Z - [REQUEST]: go.mod
+[NX Daemon Server] - 2024-06-11T17:24:46.768Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:24:46.771Z - Time taken for 'hash changed files from watcher' 0.1981250001117587ms
+[NX Daemon Server] - 2024-06-11T17:25:12.861Z - [WATCHER]: go.sum was modified
+[NX Daemon Server] - 2024-06-11T17:25:12.861Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:25:13.872Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:25:13.873Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:25:17.597Z - [WATCHER]: go.work.sum was modified
+[NX Daemon Server] - 2024-06-11T17:25:17.597Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:25:19.263Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:25:19.263Z - [REQUEST]: go.sum,go.mod,go.work.sum
+[NX Daemon Server] - 2024-06-11T17:25:19.263Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:25:19.270Z - Time taken for 'hash changed files from watcher' 0.8137920005246997ms
+[NX Daemon Server] - 2024-06-11T17:25:26.991Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:25:26.991Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:25:31.958Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:25:31.958Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:25:33.391Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:25:33.391Z - [REQUEST]: main.go
+[NX Daemon Server] - 2024-06-11T17:25:33.391Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:25:33.394Z - Time taken for 'hash changed files from watcher' 0.10687500052154064ms
+[NX Daemon Server] - 2024-06-11T17:25:33.950Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:25:33.950Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:25:40.351Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:25:40.351Z - [REQUEST]: main.go
+[NX Daemon Server] - 2024-06-11T17:25:40.351Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:25:40.353Z - Time taken for 'hash changed files from watcher' 0.11854200065135956ms
+[NX Daemon Server] - 2024-06-11T17:26:47.085Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:26:47.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:26:48.704Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:26:48.704Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:26:51.909Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:26:51.909Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:26:53.477Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:26:53.479Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:26:53.486Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:26:53.486Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:26:53.486Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:26:53.492Z - Time taken for 'hash changed files from watcher' 0.10966699942946434ms
+[NX Daemon Server] - 2024-06-11T17:26:54.995Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:26:54.996Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:27:01.397Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:27:01.398Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:27:01.398Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:27:01.401Z - Time taken for 'hash changed files from watcher' 0.1493750000372529ms
+[NX Daemon Server] - 2024-06-11T17:28:07.256Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:28:07.258Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:10.294Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:28:10.295Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:13.659Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:28:13.660Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:28:13.660Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:28:13.663Z - Time taken for 'hash changed files from watcher' 0.1877499995753169ms
+[NX Daemon Server] - 2024-06-11T17:28:24.126Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:28:24.127Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:30.528Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:28:30.528Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:28:30.528Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:28:30.532Z - Time taken for 'hash changed files from watcher' 0.1466669999063015ms
+[NX Daemon Server] - 2024-06-11T17:28:33.666Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:28:33.666Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:37.246Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:28:37.247Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:40.066Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:28:40.066Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:28:40.066Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:28:40.069Z - Time taken for 'hash changed files from watcher' 0.11600000038743019ms
+[NX Daemon Server] - 2024-06-11T17:28:42.367Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:28:42.368Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:48.770Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:28:48.770Z - [REQUEST]: main.go
+[NX Daemon Server] - 2024-06-11T17:28:48.770Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:28:48.776Z - Time taken for 'hash changed files from watcher' 0.3931669993326068ms
+[NX Daemon Server] - 2024-06-11T17:28:49.804Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:28:49.804Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:52.941Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:28:52.941Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:54.958Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:28:54.958Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:28:56.205Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:28:56.205Z - [REQUEST]: main.go
+[NX Daemon Server] - 2024-06-11T17:28:56.205Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:28:56.208Z - Time taken for 'hash changed files from watcher' 0.18654199969023466ms
+[NX Daemon Server] - 2024-06-11T17:29:02.644Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:29:02.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:29:04.074Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:29:04.074Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:29:09.046Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:29:09.046Z - [REQUEST]: go.mod
+[NX Daemon Server] - 2024-06-11T17:29:09.046Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:29:09.050Z - Time taken for 'hash changed files from watcher' 0.184582999907434ms
+[NX Daemon Server] - 2024-06-11T17:29:33.890Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:29:33.891Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:29:40.293Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:29:40.293Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:29:40.293Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:29:40.299Z - Time taken for 'hash changed files from watcher' 0.3140420001000166ms
+[NX Daemon Server] - 2024-06-11T17:29:43.630Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:29:43.630Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:29:50.031Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:29:50.032Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:29:50.032Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:29:50.035Z - Time taken for 'hash changed files from watcher' 0.29412500001490116ms
+[NX Daemon Server] - 2024-06-11T17:30:05.493Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:30:05.493Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:30:10.238Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:30:10.238Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:30:11.895Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:30:11.895Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:30:11.895Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:30:11.898Z - Time taken for 'hash changed files from watcher' 0.16141699999570847ms
+[NX Daemon Server] - 2024-06-11T17:31:33.613Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:31:33.613Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:31:36.657Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:31:36.657Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:31:40.015Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:31:40.015Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:31:40.015Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:31:40.019Z - Time taken for 'hash changed files from watcher' 0.22129200026392937ms
+[NX Daemon Server] - 2024-06-11T17:38:05.318Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:38:05.324Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:38:07.814Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:38:07.814Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:38:11.726Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:38:11.727Z - [REQUEST]: go.mod
+[NX Daemon Server] - 2024-06-11T17:38:11.730Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:38:11.748Z - Time taken for 'hash changed files from watcher' 2.003792000003159ms
+[NX Daemon Server] - 2024-06-11T17:38:22.381Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:38:22.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:38:24.605Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:38:24.605Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:38:28.782Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:38:28.782Z - [REQUEST]: go.mod
+[NX Daemon Server] - 2024-06-11T17:38:28.782Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:38:28.790Z - Time taken for 'hash changed files from watcher' 0.20879199914634228ms
+[NX Daemon Server] - 2024-06-11T17:38:44.340Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:38:44.340Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:38:50.741Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:38:50.742Z - [REQUEST]: go.mod
+[NX Daemon Server] - 2024-06-11T17:38:50.742Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:38:50.747Z - Time taken for 'hash changed files from watcher' 0.2081659995019436ms
+[NX Daemon Server] - 2024-06-11T17:39:40.336Z - [WATCHER]: internal/version/version_test.go was modified
+[NX Daemon Server] - 2024-06-11T17:39:40.336Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:39:46.740Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:39:46.740Z - [REQUEST]: internal/version/version_test.go
+[NX Daemon Server] - 2024-06-11T17:39:46.740Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:39:46.744Z - Time taken for 'hash changed files from watcher' 0.45241699926555157ms
+[NX Daemon Server] - 2024-06-11T17:40:10.272Z - [WATCHER]: internal/version/version.go was modified
+[NX Daemon Server] - 2024-06-11T17:40:10.272Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:40:16.674Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:40:16.674Z - [REQUEST]: internal/version/version.go
+[NX Daemon Server] - 2024-06-11T17:40:16.674Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:40:16.679Z - Time taken for 'hash changed files from watcher' 0.11829099990427494ms
+[NX Daemon Server] - 2024-06-11T17:40:37.227Z - [WATCHER]: 0 file(s) created or restored, 7 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:40:37.228Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:40:37.294Z - [WATCHER]: README.md was modified
+[NX Daemon Server] - 2024-06-11T17:40:37.294Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:40:38.913Z - [WATCHER]: go.work.sum was modified
+[NX Daemon Server] - 2024-06-11T17:40:38.913Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:40:43.629Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:40:43.629Z - [REQUEST]: go.work.sum,go.mod,lib/go.mod,cmd/app2/go.mod,cmd/app3/go.mod,cmd/app1/go.mod,go.sum,README.md
+[NX Daemon Server] - 2024-06-11T17:40:43.629Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:40:43.633Z - Time taken for 'hash changed files from watcher' 0.7635420002043247ms
+[NX Daemon Server] - 2024-06-11T17:40:47.508Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:40:47.508Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:40:47.685Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:40:47.685Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:40:47.834Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:40:47.835Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:40:51.671Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:40:51.671Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:40:53.909Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:40:53.909Z - [REQUEST]: go.mod
+[NX Daemon Server] - 2024-06-11T17:40:53.909Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:40:53.912Z - Time taken for 'hash changed files from watcher' 0.14900000020861626ms
+[NX Daemon Server] - 2024-06-11T17:41:00.404Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:41:00.405Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:41:06.806Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:41:06.806Z - [REQUEST]: cmd/app2/main.go,server.go,cmd/app1/main.go
+[NX Daemon Server] - 2024-06-11T17:41:06.806Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:41:06.811Z - Time taken for 'hash changed files from watcher' 0.26383399963378906ms
+[NX Daemon Server] - 2024-06-11T17:41:13.623Z - [WATCHER]: go.mod was modified
+[NX Daemon Server] - 2024-06-11T17:41:13.625Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:41:15.357Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:41:15.357Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:41:16.676Z - [WATCHER]: go.work.sum was modified
+[NX Daemon Server] - 2024-06-11T17:41:16.676Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:41:20.026Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:41:20.026Z - [REQUEST]: go.mod,go.sum,go.work.sum
+[NX Daemon Server] - 2024-06-11T17:41:20.026Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:41:20.030Z - Time taken for 'hash changed files from watcher' 0.3046250008046627ms
+[NX Daemon Server] - 2024-06-11T17:41:39.209Z - [WATCHER]: internal/version/version_test.go was modified
+[NX Daemon Server] - 2024-06-11T17:41:39.210Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:41:45.611Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:41:45.611Z - [REQUEST]: internal/version/version_test.go
+[NX Daemon Server] - 2024-06-11T17:41:45.611Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:41:45.615Z - Time taken for 'hash changed files from watcher' 0.1936659999191761ms
+[NX Daemon Server] - 2024-06-11T17:41:52.954Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:41:52.955Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:41:54.924Z - [WATCHER]: main.go was modified
+[NX Daemon Server] - 2024-06-11T17:41:54.924Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:41:59.356Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:41:59.356Z - [REQUEST]: main.go
+[NX Daemon Server] - 2024-06-11T17:41:59.356Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:41:59.359Z - Time taken for 'hash changed files from watcher' 0.1578750004991889ms
+[NX Daemon Server] - 2024-06-11T17:42:45.654Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:42:45.654Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:42:52.056Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:42:52.056Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:42:52.056Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:42:52.060Z - Time taken for 'hash changed files from watcher' 0.19866700004786253ms
+[NX Daemon Server] - 2024-06-11T17:42:52.133Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:42:52.133Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:42:55.147Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:42:55.148Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:42:56.856Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:42:56.856Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:42:58.534Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:42:58.534Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:42:58.534Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:42:58.536Z - Time taken for 'hash changed files from watcher' 0.08849999960511923ms
+[NX Daemon Server] - 2024-06-11T17:43:59.607Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:43:59.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:44:03.337Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:44:03.337Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:44:05.718Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:44:05.718Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:44:06.008Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:44:06.008Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:44:06.008Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:44:06.013Z - Time taken for 'hash changed files from watcher' 0.19395900052040815ms
+[NX Daemon Server] - 2024-06-11T17:44:08.190Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:44:08.192Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:44:12.801Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:44:12.801Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:44:14.593Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:44:14.594Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:44:14.594Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:44:14.596Z - Time taken for 'hash changed files from watcher' 0.08920800033956766ms
+[NX Daemon Server] - 2024-06-11T17:44:20.888Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:44:20.888Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:44:26.746Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:44:26.747Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:44:27.289Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:44:27.289Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:44:27.289Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:44:27.291Z - Time taken for 'hash changed files from watcher' 0.10212499927729368ms
+[NX Daemon Server] - 2024-06-11T17:44:53.633Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:44:53.634Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:44:55.557Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:44:55.557Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:45:00.038Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:45:00.039Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:45:00.039Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:45:00.044Z - Time taken for 'hash changed files from watcher' 0.1947079999372363ms
+[NX Daemon Server] - 2024-06-11T17:48:32.640Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:48:32.640Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:48:34.283Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:48:34.283Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:48:39.042Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:48:39.043Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:48:39.043Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:48:39.047Z - Time taken for 'hash changed files from watcher' 0.4309170003980398ms
+[NX Daemon Server] - 2024-06-11T17:48:50.563Z - [WATCHER]: internal was deleted
+[NX Daemon Server] - 2024-06-11T17:48:50.563Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:48:53.199Z - [WATCHER]: cmd was deleted
+[NX Daemon Server] - 2024-06-11T17:48:53.199Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:48:56.532Z - [WATCHER]: lib was deleted
+[NX Daemon Server] - 2024-06-11T17:48:56.535Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:48:56.964Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:48:56.964Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:48:56.964Z - [REQUEST]: internal,cmd,lib
+[NX Daemon Server] - 2024-06-11T17:48:56.968Z - Time taken for 'hash changed files from watcher' 0.06374999973922968ms
+[NX Daemon Server] - 2024-06-11T17:50:14.076Z - [WATCHER]: libs was deleted
+[NX Daemon Server] - 2024-06-11T17:50:14.076Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:50:20.478Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:50:20.479Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:50:20.479Z - [REQUEST]: libs
+[NX Daemon Server] - 2024-06-11T17:50:20.482Z - Time taken for 'hash changed files from watcher' 0.1845420002937317ms
+[NX Daemon Server] - 2024-06-11T17:51:01.595Z - [WATCHER]: generate copy.sh was created or restored
+[NX Daemon Server] - 2024-06-11T17:51:01.595Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:51:01.697Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:51:01.697Z - [REQUEST]: generate copy.sh
+[NX Daemon Server] - 2024-06-11T17:51:01.697Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:51:01.700Z - Time taken for 'hash changed files from watcher' 0.15391699969768524ms
+[NX Daemon Server] - 2024-06-11T17:51:10.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:51:10.505Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:51:10.606Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:51:10.606Z - [REQUEST]: generate.library.sh
+[NX Daemon Server] - 2024-06-11T17:51:10.606Z - [REQUEST]: generate copy.sh
+[NX Daemon Server] - 2024-06-11T17:51:10.608Z - Time taken for 'hash changed files from watcher' 0.08995799999684095ms
+[NX Daemon Server] - 2024-06-11T17:51:16.869Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:51:16.869Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:51:17.070Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:51:17.070Z - [REQUEST]: generate.application.sh
+[NX Daemon Server] - 2024-06-11T17:51:17.070Z - [REQUEST]: generate.sh
+[NX Daemon Server] - 2024-06-11T17:51:17.072Z - Time taken for 'hash changed files from watcher' 0.10850000008940697ms
+[NX Daemon Server] - 2024-06-11T17:51:36.790Z - [WATCHER]: generate.application.sh was modified
+[NX Daemon Server] - 2024-06-11T17:51:36.791Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:51:37.192Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:51:37.192Z - [REQUEST]: generate.application.sh
+[NX Daemon Server] - 2024-06-11T17:51:37.192Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:51:37.195Z - Time taken for 'hash changed files from watcher' 0.19595899991691113ms
+[NX Daemon Server] - 2024-06-11T17:52:10.374Z - [WATCHER]: generate.application.sh was modified
+[NX Daemon Server] - 2024-06-11T17:52:10.374Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:52:11.176Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:52:11.176Z - [REQUEST]: generate.application.sh
+[NX Daemon Server] - 2024-06-11T17:52:11.176Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:52:11.180Z - Time taken for 'hash changed files from watcher' 0.17662500031292439ms
+[NX Daemon Server] - 2024-06-11T17:52:35.025Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:52:35.026Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:52:35.027Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:52:35.028Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T17:52:35.028Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T17:52:35.028Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T17:52:35.028Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T17:52:35.028Z - Time taken for 'total for creating and serializing project graph' 0.0514159994199872ms
+[NX Daemon Server] - 2024-06-11T17:52:35.117Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:52:35.180Z - [WATCHER]: 4 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:52:35.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:52:35.281Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:52:35.281Z - [REQUEST]: libs/api/project.json,libs/api/main_test.go,libs/api/go.mod,libs/api/main.go,go.work
+[NX Daemon Server] - 2024-06-11T17:52:35.281Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:52:35.284Z - Time taken for 'hash changed files from watcher' 0.13758300058543682ms
+[NX Daemon Server] - 2024-06-11T17:52:44.824Z - [WATCHER]: generate.application.sh was modified
+[NX Daemon Server] - 2024-06-11T17:52:44.824Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:52:45.025Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:52:45.026Z - [REQUEST]: generate.application.sh
+[NX Daemon Server] - 2024-06-11T17:52:45.026Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:52:45.029Z - Time taken for 'hash changed files from watcher' 0.10637499950826168ms
+[NX Daemon Server] - 2024-06-11T17:52:47.673Z - [WATCHER]: libs was deleted
+[NX Daemon Server] - 2024-06-11T17:52:47.673Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:52:48.074Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:52:48.074Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:52:48.074Z - [REQUEST]: libs
+[NX Daemon Server] - 2024-06-11T17:52:48.076Z - Time taken for 'hash changed files from watcher' 0.028040999546647072ms
+[NX Daemon Server] - 2024-06-11T17:52:53.185Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:52:53.186Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:52:53.187Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:52:53.189Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T17:52:53.189Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T17:52:53.189Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T17:52:53.189Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T17:52:53.189Z - Time taken for 'total for creating and serializing project graph' 0.065374999307096ms
+[NX Daemon Server] - 2024-06-11T17:52:53.266Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:52:53.327Z - [WATCHER]: 4 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:52:53.327Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:52:53.428Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:52:53.428Z - [REQUEST]: apps/api/main_test.go,apps/api/go.mod,apps/api/project.json,apps/api/main.go,go.work
+[NX Daemon Server] - 2024-06-11T17:52:53.428Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:52:53.430Z - Time taken for 'hash changed files from watcher' 0.2338749999180436ms
+[NX Daemon Server] - 2024-06-11T17:53:13.554Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:53:13.555Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:53:13.756Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:53:13.756Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:53:13.756Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:53:13.759Z - Time taken for 'hash changed files from watcher' 0.1461670007556677ms
+[NX Daemon Server] - 2024-06-11T17:53:16.339Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T17:53:16.339Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:53:16.740Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:53:16.740Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T17:53:16.740Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:53:16.742Z - Time taken for 'hash changed files from watcher' 0.07245899923145771ms
+[NX Daemon Server] - 2024-06-11T17:53:36.828Z - [WATCHER]: go.work.sum was modified
+[NX Daemon Server] - 2024-06-11T17:53:36.829Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:53:37.630Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:53:37.630Z - [REQUEST]: go.work.sum
+[NX Daemon Server] - 2024-06-11T17:53:37.630Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:53:37.633Z - Time taken for 'hash changed files from watcher' 0.13604100048542023ms
+[NX Daemon Server] - 2024-06-11T17:53:46.354Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:53:46.356Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:53:46.356Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:53:46.357Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T17:53:46.357Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T17:53:46.357Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T17:53:46.357Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T17:53:46.358Z - Time taken for 'total for creating and serializing project graph' 0.05004199966788292ms
+[NX Daemon Server] - 2024-06-11T17:53:46.405Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:53:46.465Z - [WATCHER]: 4 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:53:46.465Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:53:46.566Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:53:46.566Z - [REQUEST]: libs/gql/gql_test.go,libs/gql/go.mod,libs/gql/gql.go,libs/gql/project.json,go.work
+[NX Daemon Server] - 2024-06-11T17:53:46.566Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:53:46.569Z - Time taken for 'hash changed files from watcher' 0.2332920003682375ms
+[NX Daemon Server] - 2024-06-11T17:54:32.290Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:54:32.291Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:54:32.291Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T17:54:32.293Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T17:54:32.293Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T17:54:32.293Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T17:54:32.293Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T17:54:32.293Z - Time taken for 'total for creating and serializing project graph' 0.10562499985098839ms
+[NX Daemon Server] - 2024-06-11T17:54:32.375Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T17:54:32.437Z - [WATCHER]: 4 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T17:54:32.437Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:54:32.539Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:54:32.539Z - [REQUEST]: libs/data-access/data-access.go,libs/data-access/project.json,libs/data-access/go.mod,libs/data-access/data-access_test.go,go.work
+[NX Daemon Server] - 2024-06-11T17:54:32.539Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:54:32.541Z - Time taken for 'hash changed files from watcher' 0.2504169996827841ms
+[NX Daemon Server] - 2024-06-11T17:55:44.340Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:55:44.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:55:44.542Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:55:44.542Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:55:44.542Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:55:44.546Z - Time taken for 'hash changed files from watcher' 0.27366699930280447ms
+[NX Daemon Server] - 2024-06-11T17:55:46.404Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:55:46.404Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:55:46.805Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:55:46.805Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:55:46.805Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:55:46.807Z - Time taken for 'hash changed files from watcher' 0.0730419997125864ms
+[NX Daemon Server] - 2024-06-11T17:55:48.672Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:55:48.672Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:55:49.473Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:55:49.473Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:55:49.473Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:55:49.475Z - Time taken for 'hash changed files from watcher' 0.0728329997509718ms
+[NX Daemon Server] - 2024-06-11T17:55:50.900Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:55:50.900Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:55:52.503Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:55:52.503Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:55:52.503Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:55:52.505Z - Time taken for 'hash changed files from watcher' 1.0971249993890524ms
+[NX Daemon Server] - 2024-06-11T17:55:54.671Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:55:54.671Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:55:57.871Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:55:57.871Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:55:57.871Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:55:57.873Z - Time taken for 'hash changed files from watcher' 0.17324999999254942ms
+[NX Daemon Server] - 2024-06-11T17:56:31.455Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:56:31.456Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:56:32.596Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:56:32.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:56:34.267Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:56:34.267Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:56:37.857Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:56:37.857Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:56:37.857Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:56:37.861Z - Time taken for 'hash changed files from watcher' 0.16966699995100498ms
+[NX Daemon Server] - 2024-06-11T17:56:38.563Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:56:38.563Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:56:44.965Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:56:44.965Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:56:44.965Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:56:44.967Z - Time taken for 'hash changed files from watcher' 0.17158300057053566ms
+[NX Daemon Server] - 2024-06-11T17:56:50.150Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:56:50.150Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:56:56.552Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:56:56.553Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:56:56.553Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:56:56.556Z - Time taken for 'hash changed files from watcher' 0.4291660003364086ms
+[NX Daemon Server] - 2024-06-11T17:58:00.451Z - [WATCHER]: .DS_Store was modified
+[NX Daemon Server] - 2024-06-11T17:58:00.452Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:58:06.855Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:58:06.856Z - [REQUEST]: .DS_Store
+[NX Daemon Server] - 2024-06-11T17:58:06.856Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:58:06.860Z - Time taken for 'hash changed files from watcher' 1.4142079995945096ms
+[NX Daemon Server] - 2024-06-11T17:58:09.935Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T17:58:09.935Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T17:58:16.336Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T17:58:16.337Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T17:58:16.337Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T17:58:16.340Z - Time taken for 'hash changed files from watcher' 0.18220899999141693ms
+[NX Daemon Server] - 2024-06-11T18:00:52.704Z - [WATCHER]: libs/gql/tools.go was created or restored
+[NX Daemon Server] - 2024-06-11T18:00:52.705Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:00:52.806Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:00:52.807Z - [REQUEST]: libs/gql/tools.go
+[NX Daemon Server] - 2024-06-11T18:00:52.807Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:00:52.824Z - Time taken for 'hash changed files from watcher' 0.2977080000564456ms
+[NX Daemon Server] - 2024-06-11T18:01:47.487Z - [WATCHER]: libs/gql/tools.go was modified
+[NX Daemon Server] - 2024-06-11T18:01:47.488Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:01:47.689Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:01:47.690Z - [REQUEST]: libs/gql/tools.go
+[NX Daemon Server] - 2024-06-11T18:01:47.690Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:01:47.693Z - Time taken for 'hash changed files from watcher' 0.24933299981057644ms
+[NX Daemon Server] - 2024-06-11T18:01:47.782Z - [WATCHER]: 1 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:01:47.782Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:01:47.883Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:01:47.883Z - [REQUEST]: libs/gql/go.sum,libs/gql/go.mod
+[NX Daemon Server] - 2024-06-11T18:01:47.883Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:01:47.885Z - Time taken for 'hash changed files from watcher' 0.5425410000607371ms
+[NX Daemon Server] - 2024-06-11T18:01:48.769Z - [WATCHER]: go.work.sum was modified
+[NX Daemon Server] - 2024-06-11T18:01:48.770Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:01:48.971Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:01:48.971Z - [REQUEST]: go.work.sum
+[NX Daemon Server] - 2024-06-11T18:01:48.971Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:01:48.972Z - Time taken for 'hash changed files from watcher' 0.0710830008611083ms
+[NX Daemon Server] - 2024-06-11T18:01:49.330Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:01:49.330Z - [WATCHER]: go.work.sum was modified
+[NX Daemon Server] - 2024-06-11T18:01:49.731Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:01:49.731Z - [REQUEST]: go.work.sum
+[NX Daemon Server] - 2024-06-11T18:01:49.731Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:01:49.733Z - Time taken for 'hash changed files from watcher' 0.08750000037252903ms
+[NX Daemon Server] - 2024-06-11T18:02:00.669Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:02:00.669Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:02:00.771Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:02:00.771Z - [REQUEST]: libs/gql/gqlgen.yml,libs/gql/graph/schema.graphqls,libs/gql/graph/model/_tmp_gqlgen_init.go
+[NX Daemon Server] - 2024-06-11T18:02:00.771Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:02:00.774Z - Time taken for 'hash changed files from watcher' 0.3911669999361038ms
+[NX Daemon Server] - 2024-06-11T18:02:00.910Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:02:00.911Z - [WATCHER]: libs/gql/graph/model/models_gen.go was created or restored
+[NX Daemon Server] - 2024-06-11T18:02:00.991Z - [WATCHER]: 1 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:02:00.991Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:02:01.013Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:02:01.013Z - [REQUEST]: libs/gql/graph/model/models_gen.go,libs/gql/graph/generated.go,libs/gql/go.mod
+[NX Daemon Server] - 2024-06-11T18:02:01.013Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:02:01.015Z - Time taken for 'hash changed files from watcher' 1.0802090000361204ms
+[NX Daemon Server] - 2024-06-11T18:02:01.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:02:01.110Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:02:01.203Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:02:01.203Z - [WATCHER]: 1 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:02:01.211Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:02:01.211Z - [REQUEST]: libs/gql/graph/resolver.go,libs/gql/graph/schema.resolvers.go,libs/gql/server.go,libs/gql/graph/generated.go
+[NX Daemon Server] - 2024-06-11T18:02:01.211Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:02:01.213Z - Time taken for 'hash changed files from watcher' 0.26445799972862005ms
+[NX Daemon Server] - 2024-06-11T18:02:01.320Z - [WATCHER]: libs/gql/graph/model/_tmp_gqlgen_init.go was deleted
+[NX Daemon Server] - 2024-06-11T18:02:01.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:02:01.383Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:02:01.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:02:01.521Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:02:01.521Z - [REQUEST]: libs/gql/go.sum,libs/gql/go.mod
+[NX Daemon Server] - 2024-06-11T18:02:01.521Z - [REQUEST]: libs/gql/graph/model/_tmp_gqlgen_init.go
+[NX Daemon Server] - 2024-06-11T18:02:01.522Z - Time taken for 'hash changed files from watcher' 0.09645899944007397ms
+[NX Daemon Server] - 2024-06-11T18:03:23.461Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:03:23.463Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:03:23.864Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:03:23.864Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:03:23.864Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:03:23.868Z - Time taken for 'hash changed files from watcher' 0.1922499993816018ms
+[NX Daemon Server] - 2024-06-11T18:03:26.490Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:03:26.491Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:03:27.291Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:03:27.291Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:03:27.291Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:03:27.293Z - Time taken for 'hash changed files from watcher' 0.11287499964237213ms
+[NX Daemon Server] - 2024-06-11T18:03:32.250Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:03:32.250Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:03:33.851Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:03:33.851Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:03:33.851Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:03:33.853Z - Time taken for 'hash changed files from watcher' 0.09225000068545341ms
+[NX Daemon Server] - 2024-06-11T18:03:38.365Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:03:38.365Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:03:41.566Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:03:41.567Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:03:41.567Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:03:41.570Z - Time taken for 'hash changed files from watcher' 0.16887500043958426ms
+[NX Daemon Server] - 2024-06-11T18:04:06.374Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:06.374Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:09.053Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:09.053Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:12.776Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:04:12.776Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:04:12.776Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:04:12.782Z - Time taken for 'hash changed files from watcher' 0.29749999940395355ms
+[NX Daemon Server] - 2024-06-11T18:04:28.317Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:28.318Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:31.910Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:31.910Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:34.718Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:04:34.718Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:04:34.718Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:04:34.722Z - Time taken for 'hash changed files from watcher' 0.11154100019484758ms
+[NX Daemon Server] - 2024-06-11T18:04:38.138Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:38.138Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:40.909Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:40.910Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:43.536Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:43.536Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:44.540Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:04:44.541Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:04:44.541Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:04:44.544Z - Time taken for 'hash changed files from watcher' 0.09649999998509884ms
+[NX Daemon Server] - 2024-06-11T18:04:51.803Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:51.804Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:54.667Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:54.667Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:56.159Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:56.159Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:04:58.205Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:04:58.205Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:04:58.205Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:04:58.208Z - Time taken for 'hash changed files from watcher' 0.22812499944120646ms
+[NX Daemon Server] - 2024-06-11T18:04:58.389Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:04:58.389Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:05:03.863Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:05:03.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:05:04.791Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:05:04.791Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:05:04.791Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:05:04.794Z - Time taken for 'hash changed files from watcher' 0.1067500002682209ms
+[NX Daemon Server] - 2024-06-11T18:05:10.912Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:05:10.913Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:05:17.314Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:05:17.314Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:05:17.314Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:05:17.318Z - Time taken for 'hash changed files from watcher' 0.18754199985414743ms
+[NX Daemon Server] - 2024-06-11T18:05:28.919Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:05:28.920Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:05:31.711Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:05:31.711Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:05:35.320Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:05:35.321Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:05:35.321Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:05:35.324Z - Time taken for 'hash changed files from watcher' 0.11779099982231855ms
+[NX Daemon Server] - 2024-06-11T18:05:46.075Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:05:46.075Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:05:52.477Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:05:52.477Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:05:52.477Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:05:52.482Z - Time taken for 'hash changed files from watcher' 0.21108300052583218ms
+[NX Daemon Server] - 2024-06-11T18:06:24.943Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:06:24.944Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:06:31.345Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:06:31.345Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:06:31.346Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:06:31.352Z - Time taken for 'hash changed files from watcher' 0.3660830007866025ms
+[NX Daemon Server] - 2024-06-11T18:06:41.455Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:06:41.456Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:06:42.806Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:06:42.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:06:47.856Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:06:47.857Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:06:47.857Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:06:47.860Z - Time taken for 'hash changed files from watcher' 0.20316699985414743ms
+[NX Daemon Server] - 2024-06-11T18:06:55.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:06:55.398Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:07:01.801Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:07:01.802Z - [REQUEST]: .DS_Store
+[NX Daemon Server] - 2024-06-11T18:07:01.802Z - [REQUEST]: libs/gql/server.go
+[NX Daemon Server] - 2024-06-11T18:07:01.806Z - Time taken for 'hash changed files from watcher' 0.577250000089407ms
+[NX Daemon Server] - 2024-06-11T18:07:27.721Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:07:27.721Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:07:34.123Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:07:34.123Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:07:34.123Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:07:34.128Z - Time taken for 'hash changed files from watcher' 0.3601669995114207ms
+[NX Daemon Server] - 2024-06-11T18:07:38.417Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:07:38.417Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:07:44.818Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:07:44.818Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:07:44.818Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:07:44.820Z - Time taken for 'hash changed files from watcher' 0.245792000554502ms
+[NX Daemon Server] - 2024-06-11T18:07:52.311Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:07:52.311Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:07:57.097Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:07:57.098Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:07:58.712Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:07:58.712Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:07:58.712Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:07:58.715Z - Time taken for 'hash changed files from watcher' 0.10929200053215027ms
+[NX Daemon Server] - 2024-06-11T18:07:59.030Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:07:59.030Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:08:05.431Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:08:05.431Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:08:05.431Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:08:05.433Z - Time taken for 'hash changed files from watcher' 0.12287499941885471ms
+[NX Daemon Server] - 2024-06-11T18:08:07.768Z - [WATCHER]: libs/gql/gql.go was modified
+[NX Daemon Server] - 2024-06-11T18:08:07.768Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:08:14.169Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:08:14.170Z - [REQUEST]: libs/gql/gql.go
+[NX Daemon Server] - 2024-06-11T18:08:14.170Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:08:14.172Z - Time taken for 'hash changed files from watcher' 0.13116700015962124ms
+[NX Daemon Server] - 2024-06-11T18:08:55.269Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:08:55.270Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:09:01.671Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:09:01.671Z - [REQUEST]: .DS_Store
+[NX Daemon Server] - 2024-06-11T18:09:01.671Z - [REQUEST]: main.go
+[NX Daemon Server] - 2024-06-11T18:09:01.675Z - Time taken for 'hash changed files from watcher' 0.15795799996703863ms
+[NX Daemon Server] - 2024-06-11T18:09:01.782Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:09:01.782Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:09:05.648Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2024-06-11T18:09:05.648Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:09:08.184Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:09:08.184Z - [REQUEST]: .DS_Store
+[NX Daemon Server] - 2024-06-11T18:09:08.184Z - [REQUEST]: server.go,tools.go
+[NX Daemon Server] - 2024-06-11T18:09:08.187Z - Time taken for 'hash changed files from watcher' 0.14120799954980612ms
+[NX Daemon Server] - 2024-06-11T18:09:10.652Z - [WATCHER]: .DS_Store was modified
+[NX Daemon Server] - 2024-06-11T18:09:10.652Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:09:12.233Z - [WATCHER]: go.sum was deleted
+[NX Daemon Server] - 2024-06-11T18:09:12.233Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:09:13.699Z - [WATCHER]: go.work.sum was modified
+[NX Daemon Server] - 2024-06-11T18:09:13.699Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:09:17.055Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:09:17.056Z - [REQUEST]: .DS_Store,go.work.sum
+[NX Daemon Server] - 2024-06-11T18:09:17.056Z - [REQUEST]: go.sum
+[NX Daemon Server] - 2024-06-11T18:09:17.059Z - Time taken for 'hash changed files from watcher' 1.5623329998925328ms
+[NX Daemon Server] - 2024-06-11T18:09:26.758Z - [WATCHER]: go.mod was deleted
+[NX Daemon Server] - 2024-06-11T18:09:26.763Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:09:33.163Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:09:33.163Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:09:33.163Z - [REQUEST]: go.mod
+[NX Daemon Server] - 2024-06-11T18:09:33.170Z - Time taken for 'hash changed files from watcher' 0.062332999892532825ms
+[NX Daemon Server] - 2024-06-11T18:09:34.419Z - [WATCHER]: go.work was modified
+[NX Daemon Server] - 2024-06-11T18:09:34.419Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:09:40.820Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:09:40.820Z - [REQUEST]: go.work
+[NX Daemon Server] - 2024-06-11T18:09:40.820Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:09:40.823Z - Time taken for 'hash changed files from watcher' 0.11574999988079071ms
+[NX Daemon Server] - 2024-06-11T18:10:12.715Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:12.717Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:15.104Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:15.104Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:17.287Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:17.287Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:19.118Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:10:19.118Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T18:10:19.118Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:10:19.129Z - Time taken for 'hash changed files from watcher' 0.15254100039601326ms
+[NX Daemon Server] - 2024-06-11T18:10:19.560Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:19.560Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:22.777Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:22.778Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:25.293Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:25.293Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:25.961Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:10:25.961Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T18:10:25.961Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:10:25.963Z - Time taken for 'hash changed files from watcher' 0.07458300050348043ms
+[NX Daemon Server] - 2024-06-11T18:10:26.311Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:26.311Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:29.186Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:29.186Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:32.712Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:10:32.713Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T18:10:32.713Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:10:32.715Z - Time taken for 'hash changed files from watcher' 0.1705829994753003ms
+[NX Daemon Server] - 2024-06-11T18:10:51.288Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:51.288Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:10:57.689Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:10:57.689Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T18:10:57.689Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:10:57.695Z - Time taken for 'hash changed files from watcher' 0.11183299962431192ms
+[NX Daemon Server] - 2024-06-11T18:10:57.991Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:10:57.991Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:11:00.173Z - [WATCHER]: apps/api/main.go was modified
+[NX Daemon Server] - 2024-06-11T18:11:00.173Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:11:04.393Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:11:04.393Z - [REQUEST]: apps/api/main.go
+[NX Daemon Server] - 2024-06-11T18:11:04.393Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:11:04.397Z - Time taken for 'hash changed files from watcher' 0.438833000138402ms
