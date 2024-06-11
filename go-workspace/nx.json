@@ -15,5 +15,6 @@
   "plugins": [
     "@nx-go/nx-go"
   ],
-  "nxCloudAccessToken": "ZTQzMGJmMjYtMmIwMy00NTExLWFjZjItNmNlZGE0YjUxMjIzfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "Y2NlODY2MjQtNzY3ZS00MTZlLTkwZTEtZjBhODc2YmE1MGQ5fHJlYWQtd3JpdGU=",
+  "defaultBase": "main"
 }

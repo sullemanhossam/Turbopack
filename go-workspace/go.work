@@ -1,1 +1,7 @@
 go 1.22
+
+use (
+	./api
+	./data-access
+	./gql
+)

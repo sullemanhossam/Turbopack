@@ -6,11 +6,10 @@
     "start": "echo "
   },
   "private": true,
-  "dependencies": {
-    "@nx-go/nx-go": "3.1.0"
-  },
   "devDependencies": {
+    "@nx-go/nx-go": "^3.1.0",
     "@nx/workspace": "19.2.2",
-    "nx": "19.2.2"
-  }
+    "nx": "19.2.3"
+  },
+  "nx": {}
 }
