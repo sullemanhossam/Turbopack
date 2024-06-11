@@ -1,0 +1,148 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.2.3",
+  "deps": {
+    "nx": "19.2.3",
+    "@nx-go/nx-go": "3.1.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx-go/nx-go",
+      "version": "3.1.0"
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "11254603345854076312"
+      },
+      {
+        "file": "internal/map.go",
+        "hash": "7700950485662326530"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10550631249131262778"
+      },
+      {
+        "file": "internal/hello.go",
+        "hash": "6363267866178344590"
+      },
+      {
+        "file": "internal/version/version_test.go",
+        "hash": "4563059684910836708"
+      },
+      {
+        "file": "nx.bat",
+        "hash": "16119536321561623970"
+      },
+      {
+        "file": "go.work",
+        "hash": "11707627156017807083"
+      },
+      {
+        "file": "internal/version/version.go",
+        "hash": "11995904498860115019"
+      },
+      {
+        "file": "lib/lists/lists_test.go",
+        "hash": "18425154214166302555"
+      },
+      {
+        "file": "main.go",
+        "hash": "507732310052231212"
+      },
+      {
+        "file": "internal/version/version_modern.go",
+        "hash": "17273472647453618266"
+      },
+      {
+        "file": "cmd/app3/go.mod",
+        "hash": "4234159398249111534"
+      },
+      {
+        "file": "internal/version/doc.go",
+        "hash": "17826855957281306133"
+      },
+      {
+        "file": "lib/filter/filter_test.go",
+        "hash": "17917864002526015690"
+      },
+      {
+        "file": "cmd/app2/go.mod",
+        "hash": "7203190553032890994"
+      },
+      {
+        "file": "go.mod",
+        "hash": "14446456146154387724"
+      },
+      {
+        "file": "cmd/app1/main.go",
+        "hash": "2029293338571218536"
+      },
+      {
+        "file": "internal/version/software_bom.go",
+        "hash": "18386974712616217936"
+      },
+      {
+        "file": "lib/go.mod",
+        "hash": "5921058548457649131"
+      },
+      {
+        "file": "internal/hello_test.go",
+        "hash": "8726151201685730286"
+      },
+      {
+        "file": "lib/binaryheap/binaryheap_test.go",
+        "hash": "15135952625188200318"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2110945332964774953"
+      },
+      {
+        "file": "README.md",
+        "hash": "5364788949544095174"
+      },
+      {
+        "file": "cmd/app1/go.mod",
+        "hash": "17892603214400537812"
+      },
+      {
+        "file": "go.work.sum",
+        "hash": "18221024921939964769"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "5111081283769627991"
+      },
+      {
+        "file": "lib/binaryheap/binaryheap.go",
+        "hash": "12618620495483817088"
+      },
+      {
+        "file": "lib/filter/filter.go",
+        "hash": "5916491691081400018"
+      },
+      {
+        "file": "cmd/app3/main.go",
+        "hash": "4988280401078726297"
+      },
+      {
+        "file": "cmd/app2/main.go",
+        "hash": "6611572828649956844"
+      },
+      {
+        "file": "lib/lists/lists.go",
+        "hash": "18143086636433534693"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}

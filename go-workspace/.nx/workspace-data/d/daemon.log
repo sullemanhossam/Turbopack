@@ -1,0 +1,20 @@
+[NX Daemon Server] - 2024-06-11T16:05:44.017Z - Started listening on: /var/folders/b5/fxdc0cbs7_bfbghvqvmf9gxr0000gn/T/7d135743b31dba1cc520/d.sock
+[NX Daemon Server] - 2024-06-11T16:05:44.029Z - [WATCHER]: Subscribed to changes within: /Users/sullemanhossam/Desktop/Turbopack/go-workspace (native)
+[NX Daemon Server] - 2024-06-11T16:05:44.031Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T16:05:44.032Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-11T16:05:44.034Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T16:05:44.035Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T16:05:44.055Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T16:05:44.055Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T16:05:44.055Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T16:05:44.109Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T16:05:44.124Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T16:05:44.124Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 74. Response time: 15.
+[NX Daemon Server] - 2024-06-11T16:05:44.125Z - Time taken for 'total for creating and serializing project graph' 73.87520799999999ms
+[NX Daemon Server] - 2024-06-11T16:05:44.749Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T16:05:44.768Z - [WATCHER]: nx.json was modified
+[NX Daemon Server] - 2024-06-11T16:05:44.768Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T16:05:44.870Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T16:05:44.870Z - [REQUEST]: nx.json
+[NX Daemon Server] - 2024-06-11T16:05:44.870Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T16:05:44.887Z - Time taken for 'hash changed files from watcher' 0.1709169999999176ms

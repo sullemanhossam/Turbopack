@@ -1,20 +1,16 @@
 {
-  "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
-    "production": [
-      "default"
-    ],
-    "sharedGlobals": [
-      "{workspaceRoot}/go.work"
-    ]
+  "installation": {
+    "version": "19.2.3",
+    "plugins": {
+      "@nx-go/nx-go": "3.1.0"
+    }
   },
   "plugins": [
     "@nx-go/nx-go"
   ],
-  "nxCloudAccessToken": "Y2NlODY2MjQtNzY3ZS00MTZlLTkwZTEtZjBhODc2YmE1MGQ5fHJlYWQtd3JpdGU=",
-  "defaultBase": "main"
+  "namedInputs": {
+    "sharedGlobals": [
+      "{workspaceRoot}/go.work"
+    ]
+  }
 }
