@@ -1207,3 +1207,33 @@ Error: InvalidSymbol in /Users/sullemanhossam/Desktop/Turbopack/go-workspace/pac
 [NX Daemon Server] - 2024-06-11T18:11:04.393Z - [REQUEST]: apps/api/main.go
 [NX Daemon Server] - 2024-06-11T18:11:04.393Z - [REQUEST]: 
 [NX Daemon Server] - 2024-06-11T18:11:04.397Z - Time taken for 'hash changed files from watcher' 0.438833000138402ms
+[NX Daemon Server] - 2024-06-11T18:13:44.863Z - [WATCHER]: .DS_Store was modified
+[NX Daemon Server] - 2024-06-11T18:13:44.907Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T18:13:51.311Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T18:13:51.312Z - [REQUEST]: .DS_Store
+[NX Daemon Server] - 2024-06-11T18:13:51.312Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T18:13:51.339Z - Time taken for 'hash changed files from watcher' 2.3515000008046627ms
+[NX Daemon Server] - 2024-06-11T18:21:43.261Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T18:21:43.266Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-11T18:21:43.267Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T18:21:43.270Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T18:21:43.270Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T18:21:43.270Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T18:21:43.270Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T18:21:43.270Z - Time taken for 'total for creating and serializing project graph' 0.2380419997498393ms
+[NX Daemon Server] - 2024-06-11T18:21:43.287Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T18:21:43.287Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T18:21:43.287Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T18:21:43.287Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T18:21:43.287Z - Time taken for 'total for creating and serializing project graph' 0.0408330000936985ms
+[NX Daemon Server] - 2024-06-11T18:21:43.287Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-11T18:21:43.289Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T18:21:43.289Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T18:21:43.289Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T18:21:43.289Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T18:21:43.289Z - Time taken for 'total for creating and serializing project graph' 0.029334000311791897ms
+[NX Daemon Server] - 2024-06-11T21:56:37.469Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T21:56:37.473Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T21:56:37.513Z - [WATCHER]: Stopping the watcher for /Users/sullemanhossam/Desktop/Turbopack/go-workspace (sources)
+[NX Daemon Server] - 2024-06-11T21:56:37.514Z - [WATCHER]: Stopping the watcher for /Users/sullemanhossam/Desktop/Turbopack/go-workspace (outputs)
+[NX Daemon Server] - 2024-06-11T21:56:37.514Z - Server stopped because: "10800000ms of inactivity"

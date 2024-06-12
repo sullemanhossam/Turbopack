@@ -15,52 +15,52 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".nx/nxw.js",
-        "hash": "11254603345854076312"
-      },
-      {
-        "file": "generate.library.sh",
-        "hash": "14622806876904785730"
-      },
-      {
-        "file": "go.work",
-        "hash": "8738951800297933747"
-      },
-      {
-        "file": "nx",
-        "hash": "17165975525224888679"
-      },
-      {
-        "file": ".DS_Store",
-        "hash": "5393544882223161511"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "2110945332964774953"
-      },
-      {
         "file": "README.md",
         "hash": "17406024794277719037"
-      },
-      {
-        "file": "nx.json",
-        "hash": "10550631249131262778"
-      },
-      {
-        "file": "go.work.sum",
-        "hash": "4576798810611687701"
       },
       {
         "file": "nx.bat",
         "hash": "16119536321561623970"
       },
       {
-        "file": "generate.application.sh",
-        "hash": "8737894788307263244"
+        "file": ".DS_Store",
+        "hash": "18059024516830571578"
       },
       {
         "file": "package.json",
         "hash": "16222021580400413169"
+      },
+      {
+        "file": "generate.application.sh",
+        "hash": "8737894788307263244"
+      },
+      {
+        "file": "go.work.sum",
+        "hash": "4576798810611687701"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2110945332964774953"
+      },
+      {
+        "file": "go.work",
+        "hash": "8738951800297933747"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "11254603345854076312"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10550631249131262778"
+      },
+      {
+        "file": "generate.library.sh",
+        "hash": "14622806876904785730"
       }
     ],
     "projectFileMap": {
