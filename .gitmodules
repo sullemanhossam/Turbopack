@@ -1,20 +1,20 @@
 [submodule "legacy/apps/nodeutil"]
 	path = legacy/apps/nodeutil
 	url = https://github.com/pharmavillage/nodeutil.git
-[submodule "legacy/apps/webrtc"]
-	path = legacy/apps/webrtc
+[submodule "legacy/servers/webrtc"]
+	path = legacy/servers/webrtc
 	url = https://github.com/pharmavillage/webrtc.git
 [submodule "legacy/apps/kafka"]
 	path = legacy/apps/kafka
 	url = https://github.com/pharmavillage/kafka.git
-[submodule "legacy/apps/websocket"]
-	path = legacy/apps/websocket
+[submodule "legacy/servers/websocket"]
+	path = legacy/servers/websocket
 	url = https://github.com/pharmavillage/websocket.git
 [submodule "legacy/apps/docs"]
 	path = legacy/apps/docs
 	url = https://github.com/pharmavillage/docs.git
-[submodule "legacy/apps/api"]
-	path = legacy/apps/api
+[submodule "legacy/servers/api"]
+	path = legacy/servers/api
 	url = https://github.com/pharmavillage/api.git
 [submodule "nx-rspack-mf"]
 	path = nx-rspack-mf
