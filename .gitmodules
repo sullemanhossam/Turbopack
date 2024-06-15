@@ -16,9 +16,9 @@
 [submodule "legacy/servers/api"]
 	path = legacy/servers/api
 	url = https://github.com/pharmavillage/api.git
-[submodule "nx-rspack-mf"]
-	path = nx-rspack-mf
-	url = https://github.com/pharmavillage/nx-rspack-mf.git
 [submodule "devenv"]
 	path = devenv
 	url = https://github.com/pharmavillage/devenv.git
+[submodule "rsp-mf-cdn/ui"]
+	path = rsp-mf-cdn/ui
+	url = https://github.com/pharmavillage/ui.git
