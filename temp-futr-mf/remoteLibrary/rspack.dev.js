@@ -20,8 +20,8 @@ module.exports = merge(common, {
       name: "remoteLibrary",
       filename: "remoteEntry.js",
       exposes: {
-        "./button": "./src/components/button.jsx",
-        "./header": "./src/components/header.jsx",
+        "./Button": "./src/components/Button.jsx",
+        "./Header": "./src/components/Header.jsx",
       },
     }),
   ],

@@ -1,8 +1,8 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { ModuleFederationPlugin } = require('@rspack/core').container;
-require('dotenv').config({ path: './.env' });
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { ModuleFederationPlugin } = require("@rspack/core").container;
+require("dotenv").config({ path: "./.env" });
 
-const remoteUrl = 'https://federated-library.pages.dev/remoteEntry.js';
+const remoteUrl = "https://cdn.jsdelivr.net/gh/sullemanhossam/turbopack/temp-futr-mf/remoteLibrary/dist/remoteEntry.js";
 
 module.exports = {
   mode: "development",
@@ -43,6 +43,7 @@ module.exports = {
       name: "app1",
       remotes: {
         remoteLibrary: `remoteLibrary@${remoteUrl}`,
+        // remoteLibrary: `remoteLibrary@http://localhost:49155/dist/remoteEntry.js`,
       },
     }),
   ],

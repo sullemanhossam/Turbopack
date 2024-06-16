@@ -1,5 +1,5 @@
 import { fn } from "@storybook/test";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 export default {
