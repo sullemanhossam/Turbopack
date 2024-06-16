@@ -11,10 +11,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
-      },
-      {
         test: /\.(ts|tsx|js|jsx)$/,
         loader: "babel-loader",
         exclude: /node_modules/,
@@ -36,6 +32,7 @@ module.exports = {
       filename: "remoteEntry.js",
       exposes: {
         "./Button": "./src/components/button.jsx",
+        "./Header": "./src/components/header.jsx",
       },
     }),
   ],

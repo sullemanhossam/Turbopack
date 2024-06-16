@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Secondary } from "../story/Button.stories";
+import { Secondary } from "../storybook/Button.stories";
 import clsx from "clsx";
 import TailwindWrapper from "../../tailwind.wrapper";
 
@@ -24,9 +24,12 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   const base = "rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50";
   const styles = clsx({ "bg-white": primary }, getButtonSize, base);
   return (
-    <button stlye={{ backgroundColor: "green" }} type="button" className={base} {...props}>
-      {label}
-    </button>
+    <>
+      <button type="button" className={base} {...props}>
+        {label}
+      </button>
+      <p style={{ color: "green" }}>hello</p>
+    </>
   );
 };
 

@@ -5,6 +5,7 @@
   "workspaces": [
     "./app1",
     "./app2",
+    "./careers",
     "./remoteLibrary"
   ],
   "version": "1.0.0",

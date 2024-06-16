@@ -3,17 +3,17 @@ const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
-  mode: 'development',
-  entry: './src',
+  mode: "development",
+  entry: "./src",
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
+      template: "./public/index.html",
     }),
   ],
   devServer: {
-    port: 3002,
+    port: 49155,
     hot: true,
     compress: true,
-    watchFiles: ['src/**/*'],
+    watchFiles: ["src/**/*"],
   },
 });

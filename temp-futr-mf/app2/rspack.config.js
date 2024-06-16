@@ -5,42 +5,42 @@ require('dotenv').config({ path: './.env' });
 const remoteUrl = 'https://federated-library.pages.dev/remoteEntry.js';
 
 module.exports = {
-  mode: 'development',
+  mode: "development",
   devServer: {
-    port: 3001,
+    port: 49153,
     hot: true,
     compress: true,
-    watchFiles: ['src/**/*'],
+    watchFiles: ["src/**/*"],
   },
-  target: 'web',
+  target: "web",
   resolve: {
-    extensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
+    extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
     alias: {
-      process: 'process/browser',
+      process: "process/browser",
     },
   },
   module: {
     rules: [
       {
         test: /\.(ts|tsx|js|jsx)$/,
-        loader: 'babel-loader',
+        loader: "babel-loader",
         exclude: /node_modules/,
         options: {
-          presets: ['@babel/preset-react', '@babel/preset-env'],
+          presets: ["@babel/preset-react", "@babel/preset-env"],
         },
       },
       {
         test: /\.(scss|css)$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader'],
+        use: ["style-loader", "css-loader", "postcss-loader"],
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
+      template: "./public/index.html",
     }),
     new ModuleFederationPlugin({
-      name: 'app2',
+      name: "app2",
       remotes: {
         remoteLibrary: `remoteLibrary@${remoteUrl}`,
       },

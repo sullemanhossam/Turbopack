@@ -2,11 +2,17 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { merge } = require("webpack-merge");
 const { ModuleFederationPlugin } = require("@rspack/core").container;
 const common = require("./webpack.common.js");
+// const { rspack } = require("@rspack/core");
+
 delete common.plugins;
 module.exports = merge(common, {
+  experiments: {
+    css: true,
+  },
   mode: "development",
   entry: "./src",
   plugins: [
+    // new pluginLightningcss(),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
     }),
@@ -14,12 +20,13 @@ module.exports = merge(common, {
       name: "remoteLibrary",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/components/button.jsx",
+        "./button": "./src/components/button.jsx",
+        "./header": "./src/components/header.jsx",
       },
     }),
   ],
   devServer: {
-    port: 3003,
+    port: 49155,
     hot: true,
     compress: true,
     watchFiles: ["src/**/*"],
