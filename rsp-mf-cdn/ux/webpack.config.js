@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 const { ModuleFederationPlugin } = require('webpack').container;
+const CircularDependencyPlugin = require('circular-dependency-plugin');
 
 module.exports = (env = {}) => ({
   mode: 'development',
@@ -17,37 +18,59 @@ module.exports = (env = {}) => ({
   },
   resolve: {
     extensions: ['.vue', '.jsx', '.js', '.json'],
-    alias: {
-      vue$: 'vue/dist/vue.common.js',
-    },
+    // alias: {
+    //   vue$: 'dist/vue.common.js',
+    // },
   },
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|gif|svg)$/i,
+        test: /\.(png|jpg|gif|svg)$/i,
         use: [
           {
-            loader: 'file-loader',
+            loader: 'url-loader',
             options: {
-              name: '[name].[ext]',
-              publicPath: 'src/assets/', // Public URL path to access assets
+              limit: 8192,
             },
           },
         ],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        loader: 'file-loader',
+      },
+      // {
+      //   test: /\.(png|woff|woff2|eot|ttf|svg|gif)$/,
+      //   loader: 'url-loader',
+      //   options: {
+      //     limit: 100000,
+      //   },
+      // },
+      // {
+      //   test: /\.(png|jpe?g|gif|svg)$/i,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[name].[ext]',
+      //         publicPath: 'src/assets/', // Public URL path to access assets
+      //       },
+      //     },
+      //   ],
+      // },
 
       // Add other loaders for fonts (TTF, OTF, WOFF, WOFF2) similarly
-      {
-        test: /\.(woff|woff2|ttf|otf)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-            },
-          },
-        ],
-      },
+      // {
+      //   test: /\.(woff|woff2|ttf|otf)$/,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[name].[ext]',
+      //       },
+      //     },
+      //   ],
+      // },
       {
         test: /\.vue$/,
         use: 'vue-loader',
@@ -80,22 +103,36 @@ module.exports = (env = {}) => ({
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
-    new ModuleFederationPlugin({
-      name: 'vue2App',
-      filename: 'remoteEntry.js',
-      library: { type: 'var', name: 'vue2App' },
-      exposes: {
-        './vue2': './node_modules/vue/dist/vue',
-        './Button': './src/components/Button',
-      },
+    // new ModuleFederationPlugin({
+    //   name: 'vue2App',
+    //   filename: 'remoteEntry.js',
+    //   library: { type: 'var', name: 'vue2App' },
+    //   exposes: {
+    //     './vue2': './node_modules/vue/dist/vue',
+    //     './Button': './src/components/Button',
+    //   },
+    // }),
+    new CircularDependencyPlugin({
+      // exclude detection of files based on a RegExp
+      exclude: /a\.js|node_modules/,
+      // include specific files based on a RegExp
+      include: /dir/,
+      // add errors to webpack instead of warnings
+      failOnError: true,
+      // allow import cycles that include an asyncronous import,
+      // e.g. via import(/* webpackMode: "weak" */ './file.js')
+      allowAsyncCycles: false,
+      // set the current working directory for displaying module paths
+      // eslint-disable-next-line no-undef
+      cwd: process.cwd(),
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './index.html'),
+      template: path.resolve(__dirname, './public/index.html'),
     }),
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname),
+      directory: path.resolve(__dirname, './dist'),
     },
     compress: true,
     port: 3001,

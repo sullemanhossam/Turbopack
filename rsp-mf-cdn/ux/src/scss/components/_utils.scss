@@ -563,7 +563,9 @@
   &[aria-hidden='true'] {
     visibility: hidden;
     opacity: 0;
-    transition: opacity 0.15s, visibility 0.15s;
+    transition:
+      opacity 0.15s,
+      visibility 0.15s;
   }
 
   &[aria-hidden='false'] {
@@ -1069,8 +1071,12 @@
 .ps__rail-x {
   display: none;
   opacity: 0;
-  transition: background-color 0.2s linear, opacity 0.2s linear;
-  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+  transition:
+    background-color 0.2s linear,
+    opacity 0.2s linear;
+  -webkit-transition:
+    background-color 0.2s linear,
+    opacity 0.2s linear;
   height: 15px;
   /* there must be 'bottom' or 'top' for ps__rail-x */
   bottom: 0px;
@@ -1080,8 +1086,12 @@
 .ps__rail-y {
   display: none;
   opacity: 0;
-  transition: background-color 0.2s linear, opacity 0.2s linear;
-  -webkit-transition: background-color 0.2s linear, opacity 0.2s linear;
+  transition:
+    background-color 0.2s linear,
+    opacity 0.2s linear;
+  -webkit-transition:
+    background-color 0.2s linear,
+    opacity 0.2s linear;
   width: 15px;
   /* there must be 'right' or 'left' for ps__rail-y */
   right: 0;
@@ -1116,8 +1126,12 @@
 .ps__thumb-x {
   background-color: #aaa;
   border-radius: 6px;
-  transition: background-color 0.2s linear, height 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s linear, height 0.2s ease-in-out;
+  transition:
+    background-color 0.2s linear,
+    height 0.2s ease-in-out;
+  -webkit-transition:
+    background-color 0.2s linear,
+    height 0.2s ease-in-out;
   height: 6px;
   /* there must be 'bottom' for ps__thumb-x */
   bottom: 2px;
@@ -1127,8 +1141,12 @@
 .ps__thumb-y {
   background-color: #aaa;
   border-radius: 6px;
-  transition: background-color 0.2s linear, width 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s linear, width 0.2s ease-in-out;
+  transition:
+    background-color 0.2s linear,
+    width 0.2s ease-in-out;
+  -webkit-transition:
+    background-color 0.2s linear,
+    width 0.2s ease-in-out;
   width: 6px;
   /* there must be 'right' for ps__thumb-y */
   right: 2px;
@@ -1203,7 +1221,7 @@ a.disabled {
   display: inline-block;
   width: 10rem;
   height: 10rem;
-  background-image: url('../../assets/confetti.gif');
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/pharmavillage-9622e.appspot.com/o/confetti.gif?alt=media&token=09d227c1-c5fb-4776-bd38-f15ffb4a11ab');
   background-size: cover;
   &:before {
     content: '';
@@ -1211,7 +1229,7 @@ a.disabled {
     display: inline-block;
     width: 10rem;
     height: 10rem;
-    background-image: url('../../assets/penguin.gif');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/pharmavillage-9622e.appspot.com/o/penguin.gif?alt=media&token=9aa07374-8570-4cb4-a6e6-970f230be60d');
     background-size: cover;
   }
 }

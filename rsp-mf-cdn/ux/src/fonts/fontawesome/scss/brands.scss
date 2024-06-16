@@ -18,8 +18,10 @@
   font-weight: 400;
   font-display: $fa-font-display;
   src:
-    url('../webfonts/fa-brands-400.woff2') format('woff2'),
-    url('../webfonts/fa-brands-400.ttf') format('truetype');
+    url('https://cdn.jsdelivr.net/gh/components/font-awesome@master/webfonts/fa-brands-400.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/components/font-awesome@master/webfonts/fa-brands-400.ttf')
+      format('truetype');
 }
 
 .fab,
