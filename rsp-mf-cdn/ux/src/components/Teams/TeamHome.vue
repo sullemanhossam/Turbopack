@@ -28,7 +28,7 @@
 
 <script>
 import { ChannelRoles } from '../../constants';
-import { parseTime } from '../utils';
+import { parseTime } from '../../utils';
 
 import Announcements from '../../components/Teams/Cards/Announcements.vue';
 import Usage from '../../components/Teams/Cards/Usage.vue';

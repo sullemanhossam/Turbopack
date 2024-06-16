@@ -3,14 +3,15 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 const { ModuleFederationPlugin } = require('webpack').container;
+
 module.exports = (env = {}) => ({
   mode: 'development',
   cache: false,
   devtool: 'source-map',
   optimization: {
-    minimize: false,
+    minimize: true,
   },
-  entry: path.resolve(__dirname, './src/main.js'),
+  entry: path.resolve(__dirname, './src/index.ts'),
   output: {
     publicPath: 'auto',
   },
@@ -23,6 +24,31 @@ module.exports = (env = {}) => ({
   module: {
     rules: [
       {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              publicPath: 'src/assets/', // Public URL path to access assets
+            },
+          },
+        ],
+      },
+
+      // Add other loaders for fonts (TTF, OTF, WOFF, WOFF2) similarly
+      {
+        test: /\.(woff|woff2|ttf|otf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
         test: /\.vue$/,
         use: 'vue-loader',
       },
@@ -34,6 +60,17 @@ module.exports = (env = {}) => ({
             options: {},
           },
           'css-loader',
+        ],
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {},
+          },
+          'css-loader',
+          'sass-loader', // compiles Sass to CSS, using Node Sass by default
         ],
       },
     ],
