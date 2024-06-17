@@ -6,10 +6,13 @@
     "./app1",
     "./app2",
     "./careers",
-    "./remoteLibrary"
+    "./remoteLibrary",
+    "./packages"
   ],
   "version": "1.0.0",
   "scripts": {
+    "postinstall": "farmup postinstall.js",
+    "preinstall": "yarn global add farmup && farmup resolutions.js",
     "build": "pnpm --filter federated-library-from-cdn-* --parallel build",
     "legacy:build": "pnpm --filter federated-library-from-cdn-* --parallel legacy:build",
     "start": "pnpm --filter federated-library-from-cdn-* --parallel start",

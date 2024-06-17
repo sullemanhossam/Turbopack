@@ -21,14 +21,14 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
     }
   };
 
-  const base = "rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50";
+  const base = "px-4 py-2 bg-white text-green-500 hover:bg-green-600 hover:text-white rounded-md transition-colors";
   const styles = clsx({ "bg-white": primary }, getButtonSize, base);
   return (
     <>
       <button type="button" className={base} {...props}>
         {label}
       </button>
-      <p style={{ color: "green" }}>hello</p>
+      {/* <p style={{ color: "green" }}>hello</p> */}
     </>
   );
 };

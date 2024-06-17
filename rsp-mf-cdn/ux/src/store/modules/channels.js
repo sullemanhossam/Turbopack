@@ -5,16 +5,16 @@ import _ from 'lodash';
 import store from 'store';
 import { v4 as uuid } from 'uuid';
 
-import router from '../../router';
+import router from '../../router.js';
 
 import {
   parseMessages,
   parseMessagesHierarchy,
   parseMessageContent,
-} from '../../utils';
+} from '../../utils/index.js';
 import { EventBus } from '../../event-bus.js';
 
-import AirSend from '../../client';
+import AirSend from '../../client/index.js';
 
 Vue.use(Vuex);
 

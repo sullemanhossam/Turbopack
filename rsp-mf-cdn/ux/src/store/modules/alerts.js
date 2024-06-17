@@ -4,10 +4,10 @@ import Vuex from 'vuex';
 import _ from 'lodash';
 import store from 'store';
 
-import AirSend from '../../client';
+import AirSend from '../../client/index.js';
 
-import router from '../../router';
-import { parseMessageContent } from '../../utils';
+import router from '../../router.js';
+import { parseMessageContent } from '../../utils/index.js';
 import { EventBus } from '../../event-bus.js';
 
 Vue.use(Vuex);

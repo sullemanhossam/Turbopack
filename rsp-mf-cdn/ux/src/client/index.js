@@ -2,12 +2,12 @@ import axios from 'axios';
 import qs from 'query-string';
 import Validator from 'fastest-validator';
 import store from 'store';
-import vueStore from '../../src/store/index.js';
+import vueStore from '../store/index.js';
 import appInfo from '../../package.json';
 
-import schemas from './schemas';
+import schemas from './schemas.js';
 
-import { readTextFromBlobAsync } from '../utils';
+import { readTextFromBlobAsync } from '../utils/index.js';
 
 class AirSend {
   constructor() {
