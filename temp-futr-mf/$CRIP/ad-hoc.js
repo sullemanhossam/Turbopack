@@ -1,5 +1,13 @@
-const { execSync } = require("child_process");
-const path = require("path");
+// example.js
+
+async function directoryExists(path) {
+  try {
+    await fs.access(path);
+    return true;
+  } catch (error) {
+    return false;
+  }
+}
 
 function executeCommand(command) {
   console.log(`Executing command: ${command}`);
@@ -30,22 +38,7 @@ function executeCommand(command) {
   }
 }
 
-//  target packages
-const packagesToLink = ["heroicons-v1", "heroicons-v2"];
-
-packagesToLink.forEach((packageName) => {
-  const packagePath = path.resolve(`packages/${packageName}/node_modules`);
-  const linkCommand = `yarn link ${packageName}`;
-  executeCommand(`cd ${packagePath} && ${linkCommand}`);
-});
-
-// Execute use commands in remoteLibrary
-const remoteLibraryPath = path.resolve("remoteLibrary/node_modules");
-
-executeCommand(`cd ${remoteLibraryPath}`);
-
-packagesToLink.forEach((command) => {
-  executeCommand(`yarn link ${command}`);
-});
-
-console.log("Postinstall script completed successfully.");
+module.exports = {
+  executeCommand: executeCommand,
+  directoryExists: directoryExists,
+};

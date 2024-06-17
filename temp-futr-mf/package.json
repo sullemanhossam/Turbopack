@@ -11,8 +11,8 @@
   ],
   "version": "1.0.0",
   "scripts": {
-    "postinstall": "farmup postinstall.js",
-    "preinstall": "yarn global add farmup && farmup resolutions.js",
+    "postinstall": "farmup $SCRIP/postinstall.js",
+    "preinstall": "yarn global add farmup && node $SCRIP/preinstall.js",
     "build": "pnpm --filter federated-library-from-cdn-* --parallel build",
     "legacy:build": "pnpm --filter federated-library-from-cdn-* --parallel legacy:build",
     "start": "pnpm --filter federated-library-from-cdn-* --parallel start",
